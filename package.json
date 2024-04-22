@@ -1,0 +1,19 @@
+{
+  "name": "drizzle-sqljs-query-bug",
+  "scripts": {
+    "start": "tsx ./src/main.ts",
+    "db:seed": "tsx ./src/seed.ts",
+    "db:migrate": "tsx migrate.ts",
+    "db:generate": "drizzle-kit generate:sqlite"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.30.9",
+    "sql.js": "^1.10.3"
+  },
+  "devDependencies": {
+    "@types/sql.js": "^1.4.9",
+    "drizzle-kit": "^0.20.17",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.5"
+  }
+}

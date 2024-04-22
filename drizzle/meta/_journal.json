@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1713753830578,
+      "tag": "0000_calm_rattler",
+      "breakpoints": true
+    }
+  ]
+}
