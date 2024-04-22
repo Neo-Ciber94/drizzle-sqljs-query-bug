@@ -1,5 +1,4 @@
 import { loadDatabase } from "./lib/db";
-import { posts } from "./lib/schema";
 
 async function main() {
   const { db } = await loadDatabase("./data/sqlite.db");
